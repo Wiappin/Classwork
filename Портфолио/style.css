@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 38px;
+    text-align: center;
+}
+h2 span{
+    color: #42bc7f;
+}
+header{
+    background: linear-gradient(-154deg, #42bc7f, #3d8963);
+    padding: 15px 15px;
+    position: fixed;
+    width: 100%;
+}
+header>a{
+    padding-left: 2em;
+}
+nav{
+    display: inline;
+    float: right;
+    margin-top: 0.8em;
+    padding-right: 2em;
+}
+nav ul{
+    display: inline;
+    width: 100%;
+}
+nav li{
+    display: inline-block;
+    margin-right: 2em;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(223, 223, 223);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+nav a:hover{
+    color: whitesmoke;
+}
+nav a:link{
+    font-size: 14px;
+}
+main{
+    padding-top: 5em;
+}
+section{
+    padding: 0 5vw;
+}
+
+.Welcome{
+    color: white;
+    height: 100vh;
+    background: url(img/slider.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 25vh;
+    box-sizing: border-box;
+}
+.Welcome div{
+    width: 55%;
+}
+.Welcome p{
+    margin: 2em 0;
+}
+.Welcome button{
+    height: 4em;
+    width: 14em;
+    border: none;
+    border-radius: 0%;
+}
+h1{
+    font-size: 60px;
+}
+.Viewwork{
+    background: #42bc7f;
+    color: #fff;
+}
+.Viewwork:hover{
+    background: #fff;
+    color: #333;
+}
+.Contactme{
+    background: #fff;
+    color: #333;
+}
+.Contactme:hover{
+    background: #4abc7f;
+    color: #fff;
+}
+
+.AboutMe{
+    height: 100vh;
+}
+.AboutMe div{
+    display: inline-block;
+}
+.AboutMe div:first-child{
+    width: 20%;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding-top: 30vh;
+}
+.AboutMe div:nth-child(2){
+    width: 50%;
+    padding-top: 15vh;
+    box-sizing: border-box;
+}
+.AboutMe p{
+    margin-bottom: 2.5em;
+}
+.downloadCV{
+    display: block;
+    height: 2.5em;
+    width: 14em;
+    background: #42bc7f;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 0.7em;
+    box-sizing: border-box;
+}
+.icons{
+    width: 12em;
+    box-sizing: border-box;
+}
+.icons a{
+    margin-right: 1.3em;
+    background: #42bc7f;
+    color: #fff;
+    height: 2em;
+    width: 2em;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 0.5em;
+}
+.AboutMe a:link{
+    text-decoration: none;
+    font-weight: 500;
+}
